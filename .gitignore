@@ -1,0 +1,16 @@
+
+#java specific
+*.class
+
+# generic files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+Thumbs.db
+
+#project specific
+bin/
+gen/
+.settings/

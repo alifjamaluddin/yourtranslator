@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="PageIndicator"
+        name="PageIndicator">
+        <item name="footerColor">#09b2e6</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerLineHeight">1.5dp</item>
+        <item name="footerPadding">6dp</item>
+        <item name="selectedColor">#09b2e6</item>
+    </style>
+</resources>

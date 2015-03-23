@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- OCR SETTINGS -->
+    <PreferenceCategory android:title="OCR settings" >
+        <CheckBoxPreference
+            android:entries="@array/capturemodes"
+            android:key="preference_capture_continuous"
+            android:title="Continuous preview" />
+
+        <ListPreference
+            android:entries="@array/languagenames"
+            android:entryValues="@array/iso6393"
+            android:key="sourceLanguageCodeOcrPref"
+            android:title="OCR Detection Language" />
+        <ListPreference
+            android:entries="@array/ocrenginemodes"
+            android:entryValues="@array/ocrenginemodes"
+            android:key="preference_ocr_engine_mode"
+            android:title="Recognition engine" />
+
+        <CheckBoxPreference
+            android:key="preferences_reverse_image"
+            android:summary="For devices with only a front camera"
+            android:title="Reversed camera image" />
+    </PreferenceCategory>
+
+    <!-- TRANSLATION SETTINGS -->
+    <PreferenceCategory android:title="Translation settings" >
+        <ListPreference
+            android:entries="@array/translationtargetlanguagenames_google"
+            android:entryValues="@array/translationtargetiso6391_google"
+            android:key="preference_translate_language_mode"
+            android:title="Translation Language" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
