@@ -135,7 +135,7 @@ public class TranslateHandle extends AsyncTask<Void, Void, Void> {
 	@Override
 	protected Void doInBackground(Void... params) {
 		// TRANSLATE GOOGLE API KEY
-		String key = "AIzaSyD10uEtf_DO39Zd_u0nP0Z7OiL8pmUWxTs";
+		String key = "TRANSLATE GOOGLE API KEY";
 		try {
 			String encodedtext = URLEncoder.encode(text, "UTF-8");
 			urlString = "https://www.googleapis.com/language/translate/v2?key="
